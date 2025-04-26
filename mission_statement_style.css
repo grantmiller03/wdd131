@@ -1,9 +1,72 @@
-p{text-align: center}
+body{
+    font-family:'Times New Roman', Times, serif;
+    display:grid;
+    place-items:center;
+}
 
-ol{
-    text-align:right;
-    background-color:pink;
+#border{
+    
+    border-style:inset;
+    border-color:lightgray;
+    border-width:1px;
+    padding:100px;
+    height:550px;
+    width:550px;
+    display:grid;
     
 }
-p2 {font-style: italic}
-p1, p2 {text-align:center}
+#titles{
+    background-color:white;
+}
+hr{
+    color:lightgray;
+    width:80%;
+    size:"1"
+}
+h1, h2 {
+    text-align:center;
+    font-weight:100;
+}
+h1{
+    font-size:3em;
+    
+}
+h2{
+    font-size:1em;
+    letter-spacing:4px;
+    color:#006EB6;
+}
+
+
+p{
+    
+    font-size:1.2em;
+    text-align: center;
+
+}
+
+ol{
+    font-size:1.2em;
+    text-align:left; 
+}
+li{
+    padding-bottom: 12px;
+}
+p2{
+    font-style: italic;
+    font-size:1.2em;
+    text-align:left;
+}
+p1{
+    text-align:center;
+
+}
+#byui{
+    display:block;
+    margin: 0 auto;
+    align-self:center;
+    height:80px;
+    width:auto;
+    padding-top:30px;
+
+}
