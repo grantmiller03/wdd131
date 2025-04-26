@@ -1,0 +1,9 @@
+p{text-align: center}
+
+ol{
+    text-align:right;
+    background-color:pink;
+    
+}
+p2 {font-style: italic}
+p1, p2 {text-align:center}
